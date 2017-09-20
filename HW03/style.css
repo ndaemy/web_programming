@@ -1,0 +1,105 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 1em;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  color: inherit;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+ol, ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+ol ol, ul ul, ol ul, ul ol {
+  margin-bottom: 0;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+img.preview {
+  width: 180px;
+  height: auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+}
+
+@media only screen and (min-device-width : 768px) {
+	div.title {
+		display: block;
+		vertical-align: top;
+	}
+	div.list_content {
+		display: block;
+		vertical-align: top;
+		padding: 1em;
+		box-sizing: border-box;
+	}
+  div.img_table {
+    display: block;
+    vertical-align: top;
+  }
+}
+
+@media only screen and (min-device-width : 1025px) {
+  div.title {
+		display: block;
+		vertical-align: top;
+	}
+	div.list_content {
+		display: inline-block;
+		vertical-align: top;
+		padding: 1em;
+		box-sizing: border-box;
+	}
+  div.img_table {
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+
+.intro_img {
+  width: 360px;
+  height: auto;
+}
+
+.copyright {
+
+}
