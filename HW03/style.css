@@ -61,45 +61,56 @@ th {
   text-align: left;
 }
 
-@media only screen and (min-device-width : 768px) {
-	div.title {
-		display: block;
-		vertical-align: top;
-	}
-	div.list_content {
-		display: block;
-		vertical-align: top;
-		padding: 1em;
-		box-sizing: border-box;
-	}
-  div.img_table {
-    display: block;
-    vertical-align: top;
-  }
-}
-
-@media only screen and (min-device-width : 1025px) {
-  div.title {
-		display: block;
-		vertical-align: top;
-	}
-	div.list_content {
-		display: inline-block;
-		vertical-align: top;
-		padding: 1em;
-		box-sizing: border-box;
-	}
-  div.img_table {
-    display: inline-block;
-    vertical-align: top;
-  }
+.title {
+  background-color: dodgerblue;
+  color: aliceblue;
+  text-align: center;
 }
 
 .intro_img {
-  width: 270px;
   height: auto;
 }
 
 .copyright {
   margin-left: 3px;
+}
+
+@media only screen and (max-device-width : 414px) {
+  div.title {
+    display: block;
+    vertical-align: top;
+  }
+  div.list_content {
+    display: block;
+    vertical-align: top;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+  div.img_table {
+    display: block;
+    vertical-align: top;
+  }
+  .intro_img {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width : 415px) {
+  div.title {
+    display: block;
+    vertical-align: top;
+  }
+  div.list_content {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+  div.img_table {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .intro_img {
+    width: 270px;
+  }
 }
