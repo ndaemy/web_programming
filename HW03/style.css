@@ -65,6 +65,14 @@ th {
   background-color: dodgerblue;
   color: aliceblue;
   text-align: center;
+  display: block;
+  vertical-align: top;
+  padding: 5px 0px;
+  margin-bottom: 10px;
+}
+
+.title > h1 {
+  margin-bottom: auto;
 }
 
 .intro_img {
@@ -76,10 +84,6 @@ th {
 }
 
 @media only screen and (max-device-width : 414px) {
-  div.title {
-    display: block;
-    vertical-align: top;
-  }
   div.list_content {
     display: block;
     vertical-align: top;
@@ -96,10 +100,6 @@ th {
 }
 
 @media only screen and (min-device-width : 415px) {
-  div.title {
-    display: block;
-    vertical-align: top;
-  }
   div.list_content {
     display: inline-block;
     vertical-align: top;
