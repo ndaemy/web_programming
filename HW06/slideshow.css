@@ -44,6 +44,7 @@ h1 {
   border: 2px solid #fff;
 }
 
-.indicator ul li.active {
+.indicator ul li.active,
+.indicator ul li:hover {
   background-color: #fff;
 }
